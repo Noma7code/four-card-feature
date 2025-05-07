@@ -9,20 +9,15 @@
   --margin-cyan: hsl(180, 62%, 55%);
 }
 body {
-
-  min-height: 100vh;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  margin: 0;
-  padding: 0;
-}
-main{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 50px 20px;
-
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  padding: 0;
 }
 
 .head-text {
@@ -86,13 +81,13 @@ h3 {
   .supervisor-post {
     position: absolute;
     left: 250px;
-    top: 50%;
+    top: 60%;
   }
   /*move calculator card to new position*/
   .calculator-post {
     position: absolute;
     right: 250px;
-    top: 50%;
+    top: 60%;
   }
   /*heading*/
   .head-text {
